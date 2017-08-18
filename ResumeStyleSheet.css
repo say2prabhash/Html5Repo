@@ -1,0 +1,35 @@
+h1{
+	font-size: 50px;
+	border-bottom: solid;
+	border-style: double;
+	border-width: 5px;
+	border-color: red;
+	text-align: center;
+}
+
+p{
+	color:orange;
+	font-size:20px;
+}
+#table1 td{
+			text-align: center;
+}
+#table1{
+		border-color:black;
+		color:blue;
+		font-size: 20px;
+}
+#table2{
+		font-size: 15px;
+		color:green;
+}
+ul{
+	font-size: 20px;
+	color:blue;
+}
+
+footer{
+		font-size: 20px;
+}
+
+
