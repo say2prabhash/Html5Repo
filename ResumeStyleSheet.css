@@ -9,10 +9,10 @@ p{
 	color:orange;
 	font-size: 30px;
 }
-table td{
+.table1 td{
 			text-align: center;
 }
-table {
+.table1{
 		border-color:black;
 		color:blue;
 		font-size: 30px;
