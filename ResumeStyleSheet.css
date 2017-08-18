@@ -18,10 +18,31 @@ p{
 		border-color:black;
 		color:blue;
 		font-size: 20px;
+		width: 100%;
+		border-spacing: 0;
 }
 #table2{
 		font-size: 15px;
 		color:green;
+		width: 100%;
+}
+#table1 tr{
+			text-align: center;
+}
+#table3{
+	width:100%;
+}
+#td1{
+		text-align: left;
+}
+#td2{
+			 text-align: right;
+}
+.td3{
+		text-align: left;
+}
+.td4{
+		text-align: right;
 }
 ul{
 	font-size: 20px;
