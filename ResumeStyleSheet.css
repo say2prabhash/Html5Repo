@@ -13,8 +13,13 @@ p{
 }
 #table1 td{
 			text-align: center;
+			border:solid;
+			border-spacing: all;
+			border-width: 2px;
+			border-color: black;
 }
 #table1{
+		border:solid;
 		border-color:black;
 		color:blue;
 		font-size: 20px;
@@ -28,6 +33,21 @@ p{
 }
 #table1 tr{
 			text-align: center;
+			border:solid;
+			border-spacing: all;
+			border-width: 2px;
+			border-color: black;
+}
+.info{
+			padding: 10px;
+			color:blue;
+			text-indent: +1.5em;
+}
+.infotd{
+
+		color: black;
+		font-size: 20px;
+		text-indent: 0em;
 }
 #table3{
 	width:100%;
@@ -43,10 +63,6 @@ p{
 }
 .td4{
 		text-align: right;
-}
-ul{
-	font-size: 20px;
-	color:blue;
 }
 
 footer{
