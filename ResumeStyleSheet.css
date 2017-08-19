@@ -1,45 +1,74 @@
 h1{
 	font-size: 50px;
-}
-
-hr{
+	border-bottom: solid;
+	border-style: double;
 	border-width: 5px;
+	border-color: red;
+	text-align: center;
+}
+body{
+		background-color: cyan;
 }
 p{
 	color:orange;
-	font-size: 30px;
+	font-size:20px;
 }
-table td{
+#table1 td{
 			text-align: center;
+			border:solid;
+			border-spacing: all;
+			border-width: 2px;
+			border-color: black;
 }
-table {
+#table1{
+		border:solid;
 		border-color:black;
 		color:blue;
-		font-size: 30px;
+		font-size: 20px;
+		width: 100%;
+		border-spacing: 0;
 }
-footer{
-		font-size: 5px;
+#table2{
+		font-size: 15px;
+		color:green;
+		width: 100%;
+}
+#table1 tr{
+			text-align: center;
+			border:solid;
+			border-spacing: all;
+			border-width: 2px;
+			border-color: black;
+}
+.info{
+			padding: 10px;
+			color:blue;
+			text-indent: +1.5em;
+}
+.infotd{
+
+		color: black;
+		font-size: 20px;
+		text-indent: 0em;
+}
+#table3{
+	width:100%;
+}
+#td1{
+		text-align: left;
+}
+#td2{
+			 text-align: right;
+}
+.td3{
+		text-align: left;
+}
+.td4{
 		text-align: right;
 }
-img{
-		vertical-align: top;
-}
-#div1{
-		color:green;
-}
-#div2{
-		color:red;
-}
-#div3{
-		color:blue;
+
+footer{
+		font-size: 20px;
 }
 
-.xyz{
-	font-size: 40px;
-	color: green;
-}
-li.abc{
-		font-size: 30px;
-		color: blue;
 
-}
