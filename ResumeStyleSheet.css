@@ -1,13 +1,18 @@
 h1{
 	font-size: 50px;
-	border-bottom: solid;
-	border-style: double;
+	border-style: solid;
 	border-width: 5px;
 	border-color: red;
 	text-align: center;
+	border-spacing:0;
 }
-body{
+body:hover{
 		background-color: cyan;
+		/*border-color: black;*/
+/*		border:solid;
+*/}
+body{
+		margin: 0;
 }
 p{
 	color:orange;
@@ -16,8 +21,8 @@ p{
 #table1 td{
 			text-align: center;
 			border:solid;
-			border-spacing: all;
-			border-width: 2px;
+			border-spacing: 0;
+			border-width: 1px;
 			border-color: black;
 }
 #table1{
@@ -27,6 +32,7 @@ p{
 		font-size: 20px;
 		width: 100%;
 		border-spacing: 0;
+		border-width: 1px;
 }
 #table2{
 		font-size: 15px;
@@ -54,16 +60,19 @@ p{
 #table3{
 	width:100%;
 }
+img{
+		width: 200px;
+}
 #td1{
 		text-align: left;
 }
 #td2{
 			 text-align: right;
 }
-.td3{
+#td3{
 		text-align: left;
 }
-.td4{
+#td4{
 		text-align: right;
 }
 
