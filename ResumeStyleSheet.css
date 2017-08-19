@@ -1,45 +1,77 @@
 h1{
 	font-size: 50px;
-}
-
-hr{
+	border-bottom: solid;
+	border-style: double;
 	border-width: 5px;
+	border-color: red;
+	text-align: center;
+	clear:both;
+	overflow: hidden;
 }
-p{
-	color:orange;
-	font-size: 30px;
+#float-left{
+			float: left;
+			clear: both;
+			overflow: hidden;
 }
-table td{
-			text-align: center;
-}
-table {
-		border-color:black;
-		color:blue;
-		font-size: 30px;
-}
-footer{
-		font-size: 5px;
-		text-align: right;
+#float-right{
+				clear: both;
+				overflow: hidden;
+				float: right;
 }
 img{
-		vertical-align: top;
+	width: 100px;
+	float: right;
 }
-#div1{
-		color:green;
+body{
+		border:0;
+		clear: both;
+		overflow: hidden;
 }
-#div2{
-		color:red;
+.list-heading{
+				color: black;
+				font-size: 30px;
 }
-#div3{
+li{
+	font-size: 20px;
+	color: blue;
+}
+#qualification-detail td{
+			text-align: center;
+			border:solid;
+			border-spacing: all;
+			border-width: 2px;
+			border-color: black;
+}
+#qualification-detail thead{
+					text-align: center;
+					border: solid;
+					border-spacing: all;
+					border-width: 2px;
+					border-color: black;
+}
+#qualification-detail{
+		border:solid;
+		border-color:black;
 		color:blue;
+		font-size: 20px;
+		width: 100%;
+		border-spacing: 0;
 }
-
-.xyz{
-	font-size: 40px;
-	color: green;
+#qualification-detail tr{
+			text-align: center;
+			border:solid;
+			border-spacing: all;
+			border-width: 2px;
+			border-color: black;
 }
-li.abc{
-		font-size: 30px;
-		color: blue;
-
+footer{
+		font-size: 20px;
+}
+.left-align{
+			float: left;
+			clear: both;
+			overflow: hidden;
+}
+.right-align{
+				float: right;
 }
