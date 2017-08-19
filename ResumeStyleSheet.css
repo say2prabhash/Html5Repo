@@ -6,7 +6,9 @@ h1{
 	border-color: red;
 	text-align: center;
 }
-
+body{
+		background-color: cyan;
+}
 p{
 	color:orange;
 	font-size:20px;
